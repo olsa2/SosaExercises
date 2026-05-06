@@ -80,9 +80,9 @@ public class NumberProcessor {
                 int average = 0;
                 for(int i=0; i<values.length; i++){
                     average += values[i];
-                    average /= values.length;
+                    //average /= values.length;
                 }
-                return average;
+                return average / values.lenght;
             }
 
             int getMin(){
